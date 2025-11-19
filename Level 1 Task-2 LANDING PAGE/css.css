@@ -1,0 +1,105 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #222;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Container Section */
+.container {
+    text-align: center;
+    padding: 90px 20px;
+    background: linear-gradient(to right,  #007acc,cyan);
+    color: white;
+}
+
+.container .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: white;
+    color: #007acc;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Features Section */
+.features {
+    padding: 50px 20px;
+    background: white;
+}
+
+.f-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 250px;
+    background: #e8e8e8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    background: #f7f7f7;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 20px;
+    background: white;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
